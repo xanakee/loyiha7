@@ -1,0 +1,440 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+list-style: none;
+text-decoration: none;
+font-family: "Poppins", sans-serif;
+}
+
+.container{
+    width: 1440px;
+    margin: 0 auto;
+    margin-top: 12px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    gap: 34px;
+    align-items: center;
+}
+
+li a:hover{
+    font-size: 22px;
+    color: red;
+}
+
+li a{
+    color:#18191F;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+button:hover{
+    font-size: 22px;
+cursor: pointer;
+}
+img{
+cursor: pointer;
+
+}
+
+p:hover{
+
+cursor: pointer;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.btn1 button{
+    width: 77px;
+    height: 40px;
+    color: #4CAF4F;
+    border-radius: 8px;
+    border:none ;
+    outline:none ;
+}
+.btn2 button{
+    width: 77px;
+    height: 40px;
+    background-color:  #4CAF4F;
+    border-radius: 8px;
+    color: #fff;
+    border:none ;
+    outline:none ;
+}
+
+.hero-title{
+    margin-top: 150px;
+    margin-left: 100px;
+    display: flex;
+    gap: 80px;
+}
+
+.hero-text h1{
+    color: #717171;
+    width: 687px;
+    font-size: 64px;
+    font-weight: 600;
+}
+.hero-text span{
+    color: #4CAF4F;
+
+}
+.hero-text p{
+    color: #717171;
+    font-size: 16px;
+    font-weight: 400;
+}
+.hero-text button{
+    width: 128px;
+    height: 52px;
+    background-color:  #4CAF4F;
+color: #fff;
+border:none ;
+outline:none ;
+margin-top: 30px;
+border-radius: 10px;
+}
+.dot{
+    margin-top: 500px;
+    transform: translateX(-150px);
+}
+.hero-contact{
+    margin-top: 70px;
+}
+.text{
+    text-align: center;
+}
+.text h1{
+    font-size: 36px;
+    color: #353535;
+}
+.text p{
+    color: #717171;
+    font-size: 16px;
+    padding-top: 6px;
+}
+.text img{
+    padding-top: 30px;
+}
+.hero-card{
+    text-align: center;
+margin-top: 40px;
+}
+.hero-card h1{
+    width: 555px;
+    margin-left: 450px;
+    font-size: 32px;
+    color: #353535;
+}
+.hero-card p{
+    color:#717171;
+    font-size: 16px;
+    padding-top: 4px;
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.card{
+    width: 300px;
+    height: 260px;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 8px;
+}
+.card h1{
+    width: 265px;
+    font-size: 26px;
+color: #353535;
+padding-top: 6px;
+}
+.card p{
+    width: 250px;
+    font-size: 13px;
+    color: #717171;
+    margin-left: 20px;
+padding-top: 10px;
+
+}
+.card img{
+padding-top: 25px;
+}
+.rafiki{
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    margin-top: 70px;
+}
+.lorem h1{
+    width: 600px;
+    font-size: 36px;
+    color: #4D4D4D;
+}
+.lorem p{
+    width: 600px;
+    font-size: 14px;
+    color: #4D4D4D;
+    padding-top: 10px;
+}
+.lorem button{
+   width: 151px;
+   height: 50px;
+   background-color: #4CAF4F;
+   color: #fff;
+   border:none ;
+outline:none ;
+font-size: 16px;
+margin-top: 40px;
+}
+.rafiki img{
+    width: 472px;
+    height: 487px;
+}
+.card2{
+    display: flex;
+    gap: 4px;
+}
+.card2 h1{
+    font-size: 28px;
+    color: #343434;
+}
+.card2 p{
+    font-size: 16px;
+    color: #3e3e3eee;
+}
+.card2 img{
+    width: 60px;
+    height: 60px;
+}
+.wrapperr{
+    display: flex;
+    gap: 100px;
+}
+.matn{
+    margin-left: 40px;
+}
+.matn h1{
+    color: #4D4D4D;
+    width: 431px;
+    font-weight: 600;
+    font-size: 36px;
+}
+.matn span{
+    color: #4CAF4F;
+}
+.matn p{
+    font-size: 18px;
+}
+.bg-hero{
+    display: flex;
+    gap: 250px;
+    align-items: center;
+}
+.bg-hero{
+    width: 100%;
+    height: 180px;
+    background-color: #7171714d;
+}
+.footer{
+    margin-top: 120px;
+    display: flex;
+    gap: 200px;
+}
+.footer img{
+    width: 441px;
+    height: 433px;
+}
+.foot h1{
+    width: 600px;
+    font-size: 36px;
+    color: #4D4D4D;
+}
+.foot p{
+    width: 600px;
+    font-size: 14px;
+    color: #757373;   
+    margin-top: 20px;
+}
+
+.foot button{
+    width: 151px;
+   height: 50px;
+   background-color: #4CAF4F;
+   color: #fff;
+   border:none ;
+outline:none ;
+font-size: 16px;
+margin-top: 40px;
+}
+.footer2{
+    display: flex;
+    gap: 70px;
+
+}
+
+.footer2 p{
+    width: 750px;
+    font-size: 16px;
+    color: #717171;
+    margin-top: 20px;
+}
+.footer2 h2{
+    color: #4CAF4F;
+    margin-top: 30px;
+}
+.foot2 img{
+    width: 750px;
+    height: 55px;
+  margin-top: 40px;
+}
+
+.tepa{
+    text-align: center;
+    margin-top: 100px;
+}
+.tepa h1{
+    font-size: 36px;
+    color: #4D4D4D;
+}
+
+.tepa p{
+    color: #717171;
+    width: 620px;
+    font-size: 16px;
+    height: 28px;
+    margin-top: 20px;
+    margin-left: 410px;
+
+}
+
+.oxirisi img{
+    border-radius: 10px;
+    width: 365px;
+    height: 365px;
+    padding-top: 100px;
+}
+.card3{
+    border: 2.5px solid #4d4d4d67 ;
+    width: 320px;
+    height: 175px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 7px;
+margin-left: 22px;
+transform: translateY(-90px);
+}
+.card3 h3{
+padding-top: 16px;
+    width: 285px;
+    font-size: 20px;
+    color: #4D4D4D;
+    padding-left: 10px;
+}
+
+.more{
+    align-items: center;
+}
+
+.more p{
+    color: #4CAF4F;
+    font-size: 18px;
+    padding-top: 30px;
+    font-weight: 600;
+}
+
+.tugashi{
+    display: flex;
+    align-items: center;
+gap: 40px;
+padding-left: 110px;
+}
+
+.tugad h1{
+    width: 880px;
+    font-size: 64px;
+    font-weight: 600;
+    text-align: center;
+    margin-left: 290px;
+    color: #263238;
+}
+
+.tugad button{
+    width: 180px;
+    height: 54px;
+    background-color: #4CAF4F;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+    outline: none;
+    margin-top: 60px;
+    margin-left: 620px;
+    border-radius: 6px;
+}
+
+.bg-footer{
+    margin-top: 50px;
+    width: 100%;
+    background: #263238;
+display: flex;
+    height: 300px;
+    gap: 100px;
+}
+
+.nexcent{
+    padding-top: 70px;
+    margin-left: 150px;
+}
+
+.necent{
+    display: flex;
+    align-items: center;
+}
+.necent h2{
+    color: #fff;
+    transform: translateX(-110px);
+}
+.nexcent p{
+    padding-top: 20px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.company{
+    padding-top: 70px;
+    width: 170px;
+    color: #fff;
+}
+
+form{
+    padding-top: 70px;
+}
+
+form h1{
+    font-size: 26px;
+    color: #fff;
+}
+
+input{
+background: #00000079;
+border: none;
+outline: none;
+width: 255px;
+height: 44px;
+border-radius: 8px;
+color: #fff;
+}
